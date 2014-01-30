@@ -3,7 +3,7 @@
 <head>
         <meta charset="utf-8" />
         <title>最初のPelicanブログ</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link rel="stylesheet" href="./theme/css/main.css" />
         <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="H Blog Atom Feed" />
 
         <!--[if IE]>
@@ -16,16 +16,16 @@
 <img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
 </a>
         <header id="banner" class="body">
-                <h1><a href="/">H Blog </a></h1>
+                <h1><a href="./">H Blog </a></h1>
                 <nav><ul>
-                    <li class="active"><a href="/category/pelican.html">Pelican</a></li>
+                    <li class="active"><a href="./category/pelican.html">Pelican</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 <section id="content" class="body">
   <article>
     <header>
       <h1 class="entry-title">
-        <a href="/my-first-post.html" rel="bookmark"
+        <a href="./my-first-post.html" rel="bookmark"
            title="Permalink to 最初のPelicanブログ">最初のPelicanブログ</a></h1>
     </header>
 
@@ -36,15 +36,28 @@
         </abbr>
 
         <address class="vcard author">
-                By <a class="url fn" href="/author/5t111111.html">5t111111</a>
+                By <a class="url fn" href="./author/5t111111.html">5t111111</a>
         </address>
-<p>In <a href="/category/pelican.html">Pelican</a>. </p>
-<p>tags: <a href="/tag/pelican.html">pelican</a><a href="/tag/python.html">python</a></p>
+<p>In <a href="./category/pelican.html">Pelican</a>. </p>
+<p>tags: <a href="./tag/pelican.html">pelican</a><a href="./tag/python.html">python</a></p>
 </footer><!-- /.post-info -->      <h1>ハローペリカン</h1>
 <h2>ペリカン</h2>
 <h3>ペンギン</h3>
 <p>Pelicanを使った最初の記事です。</p>
     </div><!-- /.entry-content -->
+    <div class="comments">
+      <h2>Comments !</h2>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_identifier = "my-first-post.html";
+        var disqus_url = "./my-first-post.html";
+        (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://fresh-blog.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+    </div>
 
   </article>
 </section>
